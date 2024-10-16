@@ -2,14 +2,14 @@
   "name": "findcountry",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://bytme6.github.io/findCountry",
+  "homepage": "https://github.com/ByteMe6/findCountry",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /findCountry/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bytme6/findCountry.git"
+    "url": "git+https://github.com/ByteMe6/findCountry.git"
   },
   "keywords": [],
   "author": "ByteMe6",
