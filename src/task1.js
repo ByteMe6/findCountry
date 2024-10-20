@@ -63,6 +63,7 @@ function getCountry() {
     })
     .catch(function (error) {
       console.error(error);
+      countryImg.innerHTML = "";
       textField.textContent = `Вы ввели страну неправильно, пишите на английском, полное слово`;
     });
 }
