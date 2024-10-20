@@ -9,6 +9,9 @@ function getCountry() {
   if(country === "говно"){
     country = "Russia"
   }
+    if(country === "hentai"){
+    country = "Japan"
+  }
   axios.get(`https://restcountries.com/v3.1/name/${country}`)
     .then(function(response) {
       let countryInfo = response.data[0];
